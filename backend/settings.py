@@ -1,11 +1,11 @@
-from pydantic import BaseModel
-
-
-class Settings(BaseModel):
+class Settings:
     """
     Здесь располагаются переменные необходимые для работы приложения
     """
-
-    authjwt_secret_key: str = "secret"
-    authjwt_token_location: set = {"cookies"}
-    authjwt_cookie_csrf_protect: bool = False
+    POSTGRES_HOST = "0.0.0.0"
+    POSTGRES_DB = "postgres"
+    POSTGRES_USER = "postgres"
+    POSTGRES_PASSWORD = "postgres"
+    POSTGRES_PORT = 5432
+    REDIS_HOST = "0.0.0.0"
+    REDIS_PORT = 6379
