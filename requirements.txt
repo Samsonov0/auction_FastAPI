@@ -1,0 +1,8 @@
+fastapi==0.81.0
+alembic==1.8.1
+psycopg2==2.9.3
+uvicorn==0.18.3
+fastapi-jwt-auth==0.5.0
+redis==4.3.4
+fastapi-users==10.1.5
+fastapi-users-db-sqlalchemy==4.0.3
