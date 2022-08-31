@@ -2,6 +2,7 @@ class Settings:
     """
     Здесь располагаются переменные необходимые для работы приложения
     """
+
     POSTGRES_HOST = "0.0.0.0"
     POSTGRES_DB = "postgres"
     POSTGRES_USER = "postgres"
